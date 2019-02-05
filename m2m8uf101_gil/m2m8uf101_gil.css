@@ -1,0 +1,151 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+div, div::after{
+  overflow: visible;
+  position: relative;
+}
+
+.esquerra{
+  float: left;
+  clear: left;
+}
+
+.dreta{
+  float: right;
+  clear: right;
+}
+.cap{
+  width: 500px;
+  height: 800px;
+  background-color: rgb(236, 103, 18);
+  margin: 0 auto;
+  border-radius: 100px 100px 150px 150px;
+  position: relative;
+  top: 70px;
+}
+
+.pel{
+  height: 250px;
+  background-color:rgb(41, 41, 41);
+  border-radius: 100px 100px 0 0;
+}
+
+.pel::after{
+  content: " ";
+  display: block;
+  width: 580px;
+  height: 700px;
+  background-color:rgb(41, 41, 41);
+  border-radius: 100px 100px 0 0;
+  z-index: -100;
+  right: 40px;
+}
+.ulls{
+  height: 190px;
+}
+
+.celles{
+  height: 20px;
+
+}
+
+.cella{
+  width: 200px;
+  height: 20px;
+    background-color: rgb(84, 84, 84);
+  margin: 0 25px;
+}
+
+
+
+.parpelles{
+  height: 100px;
+
+}
+
+.parpella{
+  width: 80px;
+  height: 110px;
+  background-color: grey;
+  margin: 0 75px;
+}
+
+.pestanyes{
+  height: 100px;
+  margin: 0 75px;
+
+}
+.pestanya{
+  width: 80px;
+  height: 90px;
+  bottom: 100px;
+  background-color: black;
+
+
+}
+.pest_esqu{
+  left: 00px;
+}
+.iris{
+  width: 80px;
+  height: 70px;
+  background-color: red;
+  bottom: 180px;
+  margin: 0 75px;
+
+}
+
+.pupila{
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  margin: 0 100px;
+  bottom: 230px;
+  border-radius: 100px;
+}
+.nas{
+  width: 50px;
+  height: 100px;
+  background-color: grey;
+  margin: 0 auto;
+  border-radius: 20px;
+  bottom: 40px;
+}
+ .foratnas{
+   width: 10px;
+   height: 10px;
+   background-color: black;
+   border-radius: 100px;
+   margin: 0 5px 0 5px;
+   bottom: 170px;
+ }
+
+ .orella{
+   height: 120px;
+   width: 40px;
+   background-color: grey;
+   bottom: 170px;
+   margin: 0 -40px;
+
+ }
+
+  .ore_dret{
+    border-radius: 0 50px 50px 0;
+  }
+  .ore_esqu{
+   border-radius: 50px 0 0 50px;
+ }
+
+ .boca{
+   width: 170px;
+   height: 180px;
+   left: 160px;
+   top: 60px;
+   transform: rotate(180deg);
+   border-radius: 100px;
+   box-shadow: 0 20px grey;
+
+ }
