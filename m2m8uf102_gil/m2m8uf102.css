@@ -1,0 +1,196 @@
+div, div::after, div::before{
+  overflow: visible;
+  position: absolute;
+}
+body{
+  background-color: rgb(61, 155, 215);
+  margin: 0;
+  padding: 0;
+}
+
+
+.lluna{
+  width: 200px;
+  height: 200px;
+  background-color: rgb(61, 155, 215);
+  border-radius: 100px;
+  box-shadow: inset 50px 0 0 white;
+}
+.nuvol{
+  width: 200px;
+  height: 150px;
+  background-color: white;
+  border-radius: 90px 100px;
+  left: 300px;
+  top: 100px;
+}
+.nuvol::before{
+
+  content: " ";
+  display: block;
+  width:100px;
+  height:100px;
+  background-color: white;
+  top: 40px;
+  border-radius: 100px;
+  right: 120px;
+}
+
+.nuvol::after{
+
+  content: " ";
+  display: block;
+  width:100px;
+  height:100px;
+  background-color: white;
+  left: 130px;
+  border-radius: 100px;
+  bottom: 50px;
+}
+.nuvol2{
+  width: 200px;
+  height: 150px;
+  background-color: white;
+  border-radius: 150px 100px;
+  left: 1300px;
+  bottom: 500px;
+}
+.nuvol2::before{
+
+  content: " ";
+  display: block;
+  width:100px;
+  height:100px;
+  background-color: white;
+
+  border-radius: 100px;
+  right: 130px;
+}
+
+.nuvol2::after{
+
+  content: " ";
+  display: block;
+  width:100px;
+  height:100px;
+  background-color: white;
+  left: 130px;
+  border-radius: 100px;
+  bottom: 10px;
+}
+
+.montanya{
+  width: 0px;
+   height: 0px;
+   border-right: 300px solid transparent;
+   border-top: 300px solid transparent;
+   border-left: 300px solid transparent;
+   border-bottom: 300px solid orange;
+  top: 200px;
+}
+
+.montanya2::after{
+  content: " ";
+  display: block;
+  width: 0px;
+   height: 0px;
+   border-right: 400px solid transparent;
+   border-top: 400px solid transparent;
+   border-left: 400px solid transparent;
+   border-bottom: 400px solid yellow;
+   z-index: -100;
+   left: 200px;
+
+
+}
+
+.montanya3::after{
+  position: relative;
+  content: " ";
+  display: block;
+  width: 0px;
+   height: 0px;
+   border-right: 600px solid transparent;
+   border-top: 600px solid transparent;
+   border-left: 600px solid transparent;
+   border-bottom: 600px solid red;
+   z-index: -200;
+   left: 500px;
+   bottom: 400px;
+}
+.montanya4{
+  content: " ";
+  display: block;
+  width: 0px;
+   height: 0px;
+   border-right: 300px solid transparent;
+   border-top: 300px solid transparent;
+   border-left: 300px solid transparent;
+   border-bottom: 300px solid gold;
+   z-index: 300;
+  top: 200px;
+   left: 1300px;
+}
+
+.cos{
+  height: 60px;
+  width: 60px;
+  background-color: black;
+  border-radius: 80px 40px 80px 40px;
+  top: 730px;
+  transform: rotate(60deg);
+}
+
+.flor{
+  top: 300px;
+  left: 150px;
+  animation-name: flor;
+  animation-duration: 5s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+@keyframes flor{
+  from{
+    transform: rotate(0deg);
+    transform-origin: 
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+.petal{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: #FF3;
+  border-radius: 100px 0 100px 0;
+}
+.centre{
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background-color: #F33;
+  border-radius: 25px;
+  top: -525px;
+  left: -25px;
+}
+.p2{
+  transform: translateY(-100px) rotate(60deg) ;
+  transform-origin: 0 100px;
+}
+.p3{
+  transform: translateY(-200px) rotate(120deg) ;
+  transform-origin: 0 100px;
+}
+.p4{
+  transform: translateY(-300px) rotate(180deg) ;
+  transform-origin: 0 100px;
+}
+.p5{
+  transform: translateY(-400px) rotate(240deg) ;
+  transform-origin: 0 100px;
+}
+.p6{
+  transform: translateY(-500px) rotate(300deg) ;
+  transform-origin: 0 100px;
+}
